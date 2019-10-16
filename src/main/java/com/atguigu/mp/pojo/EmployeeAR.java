@@ -12,7 +12,7 @@ import java.io.Serializable;
  */
 @Data
 @TableName("tb_employee")
-public class EmployeeAR extends Model {
+public class EmployeeAR extends Model<EmployeeAR> {
     private Integer id;
     private String name;
     private Integer age;
